@@ -217,7 +217,7 @@ class FirstParty(object):
         print("(third_party_resources is a list of third-party URIs found on this FirstParty)")
     
     def __repr__(self):
-        return "< FirstParty containing results for url: " + self.url + ">"
+        return "< FirstParty containing results for url: " + self.url + " >"
     
     def __eq__(self, other):
         return other and self._domain == other._domain
